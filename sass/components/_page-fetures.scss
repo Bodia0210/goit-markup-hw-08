@@ -1,0 +1,55 @@
+.fetures {
+    margin-top: 94px;
+}
+
+.fetures__menu {
+    display: flex;
+    height: 248px;
+    padding-left: 0;
+}
+
+.fetures__icone {
+    display: block;
+    /* margin-top: 20px; */
+    /* margin-left: 100px; */
+    margin-bottom: 25px;
+    width: 70px;
+    height: 70px;
+}
+
+.fetures__list {
+    width: 270px;
+    height: 120px;
+    height: auto;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.fetures__list:last-child {
+    margin-right: 0;
+}
+
+.fetures__container {
+    display: flex;
+    padding: 20px 100px;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+}
+
+.fetures__title {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    color: $main-color;
+}
+
+.fetures__text {
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: $second-color;
+}
