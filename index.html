@@ -2,7 +2,6 @@
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -29,7 +28,20 @@
           <a href=" https://bodia0210.github.io/goit-markup-hw-01/ " 
           class="line-header__logo">Web<span>Studio</span>
           </a>
-        
+
+        <button type="button" class="line-header__mobile-button is-open"
+        arir-expanded="false"
+        data-menu-button>
+          <svg width="40px" height="40px" aria-label="Перемикач мобільного меню">
+            <use class="line-header__icon-menu" 
+            href="./images/symbol-de.svg#iconmenu_40px"></use>
+
+            <use class="line-header__icon-cros" 
+            href="./images/symbol-de.svg#iconclose_40px"></use>
+          </svg>
+        </button>
+
+        <div class="line-header__navi-menu is-open" data-menu>
           <ul class="line-header__site-nav">
             <li class="line-header__item">
               <a href="#" class="line-header__item-one">Студія</a></li>
@@ -60,6 +72,7 @@
               +380961111111</a>
             </li>
           </ul>
+          </div>
         </nav>
       </div>
     </header>
@@ -552,5 +565,6 @@
     </div>
     </footer>
       <script src="./js/modal.js"></script>
+      <script src="./js/menu.js"></script>
   </body>
 </html>

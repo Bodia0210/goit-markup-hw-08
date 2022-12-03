@@ -46,7 +46,6 @@ ul {
 }
 
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -62,10 +61,8 @@ textarea {
 }
 
 .line-header {
+  position: relative;
   height: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -89,7 +86,40 @@ textarea {
   color: #000000;
 }
 
+.line-header__mobile-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.line-header__mobile-button .line-header__icon-cros {
+  display: none;
+}
+
+.line-header__mobile-button.is-open .line-header__icon-cros {
+  display: block;
+}
+
+.line-header__mobile-button.is-open .line-header__icon-menu {
+  display: none;
+}
+
 /* navimenu */
+.Line-header__navi-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+.Line-header__navi-menu.is-open {
+  display: block;
+}
+
 .line-header__site-nav .line-header__item {
   color: #212121;
 }
@@ -108,12 +138,6 @@ textarea {
   color: #2196f3;
 }
 
-.line-header__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .line-header__item-one::after {
   content: "";
   position: absolute;
@@ -129,9 +153,6 @@ textarea {
 
 .line-header__site-nav {
   margin-left: 93px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   font-weight: 500;
   line-height: 1.1428571429;
   letter-spacing: 0.02em;
@@ -146,9 +167,6 @@ textarea {
 }
 
 .line-header__contact-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-left: auto;
 }
 
@@ -180,8 +198,6 @@ textarea {
 
 .hero {
   text-align: center;
-  height: 600px;
-  max-width: 1600px;
   /* outline: 1px solid black; */
   border: 1px solid #ECECEC;
   margin-left: auto;
@@ -465,9 +481,6 @@ textarea {
 }
 
 .fetures__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   height: 248px;
   padding-left: 0;
 }
@@ -521,6 +534,7 @@ textarea {
 }
 
 .activity {
+  display: none;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -579,9 +593,9 @@ textarea {
 }
 
 .we {
+  margin-top: 60px;
   padding-top: 94px;
   padding-bottom: 94px;
-  text-align: center;
   background-color: #F5F4FA;
 }
 
@@ -595,11 +609,7 @@ textarea {
 }
 
 .we__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding-left: 0;
-  width: 1170px;
 }
 
 .we__list {
@@ -690,9 +700,6 @@ textarea {
 
 .client__menu {
   margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: relative;
 }
 
