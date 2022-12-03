@@ -109,14 +109,16 @@ textarea {
 }
 
 /* navimenu */
-.Line-header__navi-menu {
+.line-header_menu-conteiner {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
+  height: 796px;
+  background-color: rgb(255, 255, 255);
 }
-.Line-header__navi-menu.is-open {
+.line-header_menu-conteiner.is-open {
   display: block;
 }
 
