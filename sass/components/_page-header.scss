@@ -123,9 +123,9 @@
 }
 
 .line-header__contact-nav {
-    // display: flex;
+    display: flex;
+    flex-direction: column-reverse;
     margin-left: auto;
-    flex-direction: row-reverse;
 }
 
 .line-header__contacts {
