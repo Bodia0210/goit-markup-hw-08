@@ -74,6 +74,7 @@ textarea {
 }
 
 .line-header__logo {
+  position: relative;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -92,10 +93,14 @@ textarea {
   display: inline-flex;
   margin: 0;
   padding: 0;
-  margin-left: 246px;
   padding-top: 10px;
   border: none;
   background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .line-header__mobile-button {
+    display: none;
+  }
 }
 
 .line-header__mobile-button .line-header__icon-cros {
@@ -116,13 +121,27 @@ textarea {
   position: absolute;
   top: 100%;
   left: 0;
-  padding-left: 40px;
   width: 100%;
+  padding-left: 40px;
   height: 796px;
   background-color: rgb(255, 255, 255);
+  overflow-y: scroll;
 }
 .line-header_menu-conteiner.is-open {
   display: block;
+}
+@media screen and (max-width: 767px) {
+  .line-header_menu-conteiner {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding-left: 40px;
+    height: 796px;
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+  }
 }
 
 .line-header__site-nav .line-header__item {
@@ -131,7 +150,6 @@ textarea {
 
 .line-header__item {
   display: block;
-  position: relative;
   font-size: 40px;
   margin-bottom: 32px;
 }
@@ -233,6 +251,8 @@ textarea {
 
 .hero {
   text-align: center;
+  height: 600px;
+  max-width: 1600px;
   /* outline: 1px solid black; */
   border: 1px solid #ECECEC;
   margin-left: auto;

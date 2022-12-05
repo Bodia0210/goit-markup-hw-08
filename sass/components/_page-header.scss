@@ -12,6 +12,7 @@
 // HEADER
 
 .line-header__logo {
+    position: relative;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -28,10 +29,13 @@
     display: inline-flex;
     margin: 0;
     padding: 0;
-    margin-left: 246px;
     padding-top: 10px;
     border: none;
     background-color: transparent;
+
+@media  and (min-width: 768px) {
+    display: none;
+}
 }
 
 .line-header__mobile-button .line-header__icon-cros {
@@ -54,13 +58,30 @@
     position: absolute;
     top: 100%;
     left: 0;
-    padding-left: 40px;
     width: 100%;
+    padding-left: 40px;
     height: 796px;
     background-color: rgba(255, 255,255, 1);
-
+    overflow-y: scroll;
     &.is-open {
         display: block;
+    }
+
+    @media screen and (max-width: 767px) {
+        display: none;
+        
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            padding-left: 40px;
+            height: 796px;
+            background-color: rgba(255, 255, 255, 1);
+            overflow-y: scroll;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: flex;
     }
 }
 
@@ -71,7 +92,7 @@
 
 .line-header__item {
     display: block;
-    position: relative;
+    // position: relative;
     font-size: 40px;
     margin-bottom: 32px;
 }
