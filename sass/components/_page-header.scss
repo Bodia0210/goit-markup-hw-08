@@ -33,11 +33,11 @@
     border: none;
     background-color: transparent;
 
-@media  and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     display: none;
 }
-}
 
+}
 .line-header__mobile-button .line-header__icon-cros {
     display: none;
 }
@@ -84,6 +84,8 @@
         display: flex;
     }
 }
+
+
 
 .line-header__site-nav .line-header__item {
     color: #212121;
