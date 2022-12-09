@@ -623,7 +623,11 @@ img {
 
 .fetures {
   display: inline-block;
-  margin-top: 94px;
+  margin-top: 60px;
+  width: 450px;
+  height: 994px;
+  left: 15px;
+  top: 520px;
 }
 
 .fetures__menu {
@@ -633,18 +637,13 @@ img {
 
 .fetures__icone {
   display: block;
-  /* margin-top: 20px; */
-  /* margin-left: 100px; */
-  margin-bottom: 25px;
   width: 70px;
-  height: 70px;
 }
 
 .fetures__list {
-  width: 270px;
-  height: 120px;
+  width: 450px;
+  height: 226px;
   height: auto;
-  margin-right: 30px;
   margin-bottom: 30px;
 }
 
@@ -656,9 +655,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 100px;
-  width: 270px;
-  height: 120px;
+  padding: 25px 190px;
+  width: 450px;
+  height: 226px;
   background-color: #F5F4FA;
 }
 
@@ -667,6 +666,7 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1428571429;
+  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
