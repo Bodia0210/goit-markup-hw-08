@@ -830,7 +830,7 @@ img {
 }
 
 .regular-client {
-  padding-top: 94px;
+  padding-top: 60px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1666666667;
@@ -919,7 +919,7 @@ img {
 }
 
 .footer {
-  height: 252px;
+  height: 603px;
   background-color: #2f303a;
 }
 
@@ -933,11 +933,12 @@ img {
   display: -ms-flexbox;
   display: flex;
   padding-top: 60px;
+  padding-left: 163px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923076923;
+  font-size: 24px;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -947,9 +948,13 @@ img {
 }
 
 .footer__adsress {
+  width: 232px;
+  height: 79px;
   margin-top: 20px;
+  margin-left: 124px;
   font-weight: 400;
   line-height: 1.7142857143;
+  text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -982,16 +987,18 @@ img {
 }
 
 .footer__add {
-  padding-left: 70px;
-  padding-top: 40px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 137px;
 }
 
 .footer__link-title {
   margin-bottom: 20px;
-  ont-weight: 700;
+  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -1025,8 +1032,7 @@ img {
 }
 
 .footer__subscription {
-  padding-left: 93px;
-  padding-top: 72px;
+  padding-top: 200px;
 }
 
 .footer__subscription-text {
@@ -1034,6 +1040,7 @@ img {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
   padding-bottom: 20px;
@@ -1042,7 +1049,7 @@ img {
 .footer__subscription-input {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 358px;
+  width: 450px;
   height: 50px;
   left: 815px;
   top: 2784px;
@@ -1069,16 +1076,15 @@ img {
 }
 
 .footer__subscription-button {
+  margin-top: 20px;
   width: 200px;
   height: 50px;
-  left: 1185px;
-  top: 2784px;
   background: #2196F3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #FFFFFF;
-  margin-left: 12px;
+  margin-left: 140px;
   cursor: pointer;
 }
 
