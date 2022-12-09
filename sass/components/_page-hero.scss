@@ -1,6 +1,6 @@
 .hero {
     text-align: center;
-    min-height: 600px;
+    
     max-width: 1600px;
     /* outline: 1px solid black; */
     border: 1px solid #ECECEC;
@@ -25,11 +25,11 @@
 
 .hero__title {
     margin-left: 60px;
-    padding-top: 200px;
-    width: 696px;
+    padding-top: 118px;
+    width: 360px;
     font-weight: 900;
-    font-size: 44px;
-    line-height: calc(60 / 44);
+    font-size: 26px;
+    line-height: calc(42 / 26);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;

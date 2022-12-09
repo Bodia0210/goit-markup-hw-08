@@ -343,7 +343,6 @@ img {
 
 .hero {
   text-align: center;
-  min-height: 600px;
   max-width: 1600px;
   /* outline: 1px solid black; */
   border: 1px solid #ECECEC;
@@ -361,11 +360,11 @@ img {
 
 .hero__title {
   margin-left: 60px;
-  padding-top: 200px;
-  width: 696px;
+  padding-top: 118px;
+  width: 360px;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.3636363636;
+  font-size: 26px;
+  line-height: 1.6153846154;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
