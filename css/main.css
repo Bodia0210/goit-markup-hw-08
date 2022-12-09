@@ -101,6 +101,7 @@ img {
 }
 
 .line-header__logo {
+  position: relative;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -208,6 +209,7 @@ img {
 }
 
 .line-header__site-nav {
+  margin-left: 20px;
   margin-bottom: 306px;
   font-weight: 500;
   line-height: 1.1428571429;
@@ -250,7 +252,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: auto;
+  margin-left: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
@@ -268,6 +270,15 @@ img {
 
 .line-header__contacts + .line-header__contacts {
   margin-left: 50px;
+}
+
+.line-header__contacts.tel {
+  color: #2196f3;
+}
+@media screen and (min-width: 481px) {
+  .line-header__contacts.tel {
+    color: #757575;
+  }
 }
 
 .line-header__contacts .line-header__mail-icone {
@@ -288,6 +299,11 @@ img {
   }
 }
 
+.line-header__links-box {
+  margin-top: 64px;
+  margin-left: 20px;
+}
+
 .line-header__links-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -306,6 +322,16 @@ img {
 
 .line-header__networks {
   padding-right: 10px;
+  width: 85px;
+  height: 22px;
+  left: 40px;
+  top: 726px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
   color: rgb(33, 150, 243);
 }
 
