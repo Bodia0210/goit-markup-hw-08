@@ -116,6 +116,8 @@
 
 .line-header__nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .line-header__item-one::after {

@@ -193,6 +193,12 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .line-header__item-one::after {
@@ -346,7 +352,7 @@ img {
   text-align: center;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero.jpg");
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
-  background-size: contain;
+  background-size: 480px 400px;
   background-position: center;
 }
 .hero .hero__container {
@@ -354,7 +360,7 @@ img {
 }
 
 .hero__title {
-  margin-left: 200px;
+  margin-left: 60px;
   padding-top: 200px;
   width: 696px;
   font-weight: 900;
