@@ -1,18 +1,26 @@
 .line-header {
     position: relative;
-    height: 80px;
-    // display: flex;
+    height: 60px;
+
     align-items: center;
     justify-content: center;
 
     background-color: $background-color;
     border-bottom: 1px solid #ececec;
+
+
+
+
+    @media screen and (min-width: 1140px) {
+        display: flex;
+        height: 80px;
+
+    }
 }
 
 // HEADER
 
 .line-header__logo {
-    position: relative;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -25,6 +33,8 @@
     color: #000000;
 }
 
+/* navimenu */
+
 .line-header__mobile-button {
     display: inline-flex;
     margin: 0;
@@ -33,11 +43,16 @@
     border: none;
     background-color: transparent;
 
-@media screen and (min-width: 768px) {
-    display: none;
-}
+    @media screen and (min-width: 481px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1140px) {
+        display: none;
+    }
 
 }
+
 .line-header__mobile-button .line-header__icon-cros {
     display: none;
 }
@@ -47,7 +62,8 @@
 }
 
 .line-header__mobile-button.is-open .line-header__icon-menu {
-    display: none;}
+    display: none;
+}
 
 /* navimenu */
 
@@ -61,46 +77,31 @@
     width: 100%;
     padding-left: 40px;
     height: 796px;
-    background-color: rgba(255, 255,255, 1);
+    background-color: rgba(255, 255, 255, 1);
     overflow-y: scroll;
+
     &.is-open {
         display: block;
     }
-
-    @media screen and (max-width: 767px) {
-        display: none;
-        
-            position: absolute;
-            top: 100%;
-            left: 0;
-            width: 100%;
-            padding-left: 40px;
-            height: 796px;
-            background-color: rgba(255, 255, 255, 1);
-            overflow-y: scroll;
-    }
-
-    @media screen and (min-width: 768px) {
-        display: flex;
-    }
 }
 
-
+@media screen and (min-width: 481px) {}
 
 .line-header__site-nav .line-header__item {
     color: #212121;
 }
 
-
 .line-header__item {
-    display: block;
-    // position: relative;
-    font-size: 40px;
-    margin-bottom: 32px;
+        display: block;
+        font-size: 40px;
+        margin-bottom: 32px;
+
+        @media screen and (min-width: 481px) {
+            display: none;
+        }
 }
 
 .line-header__item-one {
-
     color: #2196f3;
 }
 
@@ -110,8 +111,7 @@
 }
 
 .line-header__nav {
-    
-    // display: flex;
+    display: flex;
 }
 
 .line-header__item-one::after {
@@ -124,21 +124,40 @@
     margin-bottom: -25px;
     bottom: 0;
     border-radius: 2px;
-    // background-color: #2196f3;
+    background-color: #2196f3;
 }
+
+
 
 .line-header__site-nav {
     margin-bottom: 306px;
-    // display: flex;
-    font-weight: 500;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
+        font-weight: 500;
+        line-height: 1.1428571429;
+        letter-spacing: .02em;
+
+    @media screen and (min-width: 481px) {
+        position: relative;
+        display: flex;}
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+
+
+    @media screen and (min-width: 1140px) {
+        display: flex;
+    }
 }
 
 
 
 .line-header__site-nav .line-header__item+.line-header__item {
-    // margin-left: 50px;
+
+
+    @media screen and (min-width: 768px) {
+    margin-left: 50px;
+    }
+    
 }
 
 .line-header__site-nav .line-header__link {
@@ -147,16 +166,12 @@
 
 .line-header__contact-nav {
     display: flex;
-    flex-direction: column-reverse;
     margin-left: auto;
 }
 
 .line-header__contacts {
     color: $second-color;
     margin-right: 50px;
-    @media  (min-width: 768px) {
-        color: #2196f3;
-    }
 }
 
 .line-header__contacts :last-child {
@@ -168,35 +183,10 @@
 }
 
 .line-header__contacts .line-header__mail-icone {
-    display: none;
     align-items: center;
     fill: currentColor;
     width: 16px;
     height: 12px;
     text-align: center;
     justify-content: center;
-
-    @media screen and (min-width:768px) {
-        display: block;
-        
-    }
 }
-
-.line-header__links-box {
-
-}
-.line-header__links-menu {
-    display: flex;
-}
-
-.line-header__networks {
-    font-weight: 500;
-        font-size: 18px;
-        line-height: 22px;
-        
-    
-        letter-spacing: 0.02em;
-    color: #2196f3;
-    margin-right: 20px;
-}
-
