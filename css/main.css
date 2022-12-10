@@ -1114,12 +1114,14 @@ img {
 }
 
 .filtr__menu {
-  margin-bottom: 34px;
-  margin-top: 94px;
-  margin-left: 297px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 329px;
+  margin-bottom: 34px;
+  margin-top: 40px;
 }
 
 .filr__button {
@@ -1127,6 +1129,7 @@ img {
   padding: 6px 22px;
   border-radius: 4px;
   margin-left: 8px;
+  margin-bottom: 15px;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -1143,9 +1146,7 @@ img {
 }
 
 .filtr__icone {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-left: 0;
@@ -1154,7 +1155,7 @@ img {
 
 .filtr__item {
   position: relative;
-  width: 370px;
+  width: 450px;
   height: 404px;
   margin-bottom: 30px;
   margin-right: 30px;
@@ -1235,6 +1236,11 @@ img {
   color: #FFFFFF;
   -webkit-transform: translateY(150%);
           transform: translateY(150%);
+}
+
+.img__filtr-icone {
+  width: 450px;
+  height: 294px;
 }
 
 .filtr__project-headlines {

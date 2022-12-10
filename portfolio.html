@@ -24,37 +24,63 @@
       <a href=" https://bodia0210.github.io/goit-markup-hw-01/ " class="line-header__logo">Web<span>Studio</span>
       </a>
 
-      <ul class="line-header__site-nav">
-        <li class="line-header__item">
-          <a href="./index.html" class="">Студія</a>
-        </li>
-        <li class="line-header__item">
-          <a href="#" class="line-header__item-one">Портфоліо</a>
-        </li>
-        <li class="line-header__item">
-          <a href="#" class="line-header__item">Контакти</a>
-        </li>
-      </ul>
-
-      <ul class="line-header__contact-nav">
-        <li class="line-header__item">
-          <a href="mailto:info@devstudio.com" class="line-header__contacts mail">
-            <svg class="line-header__mail-icone">
-              <use href="./images/icons.svg#iconenvelope">
-              </use>
-            </svg>
-            info@devstudio.com</a>
-        </li>
-
-        <li class="line-header__item">
-          <a href="tel:+380961111111" class="line-header__contacts">
-            <svg class="line-header__mail-icone">
-              <use href="./images/icons.svg#iconsmartpfone" class="line-header__icone">
-              </use>
-            </svg>
-            +380961111111</a>
-        </li>
-      </ul>
+      <button type="button" class="line-header__mobile-button" arir-expanded="false" data-menu-button>
+        <svg width="40px" height="40px" aria-label="Перемикач мобільного меню" aria-controls="menu-container">
+          <use class="line-header__icon-menu" href="./images/symbol-de.svg#iconmenu_40px"></use>
+      
+          <use class="line-header__icon-cros" href="./images/symbol-de.svg#iconclose_40px"></use>
+        </svg>
+      </button>
+      
+      <div class="line-header_menu-conteiner " data-menu>
+        <ul class="line-header__site-nav">
+          <li class="line-header__item">
+            <a href="#" class="line-header__item-one">Студія</a>
+          </li>
+          <li class="line-header__item">
+            <a href="./portfolio.html" class="line-header__item">Портфоліо</a>
+          </li>
+          <li class="line-header__item">
+            <a href="#" class="line-header__item">Контакти</a>
+          </li>
+        </ul>
+      
+        <ul class="line-header__contact-nav">
+          <li class="line-header__item">
+            <a href="mailto:info@devstudio.com" class="line-header__contacts mail">
+              <svg class="line-header__mail-icone">
+                <use href="./images/icons.svg#iconenvelope">
+                </use>
+              </svg>
+              info@devstudio.com</a>
+          </li>
+      
+          <li class="line-header__item">
+            <a href="tel:+380961111111" class="line-header__contacts tel">
+              <svg class="line-header__mail-icone">
+                <use href="./images/icons.svg#iconsmartpfone" class="line-header__icone">
+                </use>
+              </svg>
+              +380961111111</a>
+          </li>
+        </ul>
+        <div class="line-header__links-box">
+          <ul class="line-header__links-menu">
+            <li class="line-header__link">
+              <a href="#" class="line-header__networks">Instagram</a>
+            </li>
+            <li class="line-header__link">
+              <a href="#" class="line-header__networks">Twitter</a>
+            </li>
+            <li class="line-header__link">
+              <a href="#" class="line-header__networks">Facebook</a>
+            </li>
+            <li class="line-header__link">
+              <a href="#" class="line-header__networks">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </div>
 </header>
@@ -81,7 +107,7 @@
         <li class="filtr__item">
           <a href="#" class="filtr__link-projeckt">
             <div class="filtr__description-efect">
-              <img src="images/portf1.jpg" alt="tehnokriak website"мwidth="370" />
+              <img class="img__filtr-icone" src="images/portf1.jpg" alt="tehnokriak website"мwidth="370" />
               <p class="filtr__description">
                 Ресурс пропонує комплексні
                 пропозиції з різним рівнем
@@ -100,7 +126,7 @@
 <li class="filtr__item">
   <a href="#" class="filtr__link-projeckt">
     <div class="filtr__description-efect">
-    <img src="images/portf2.jpg" alt="tehnokriak website" width="370" />
+    <img class="img__filtr-icone" src="images/portf2.jpg" alt="tehnokriak website" width="370" />
     <p  class="filtr__description">
       Ресурс пропонує комплексні
       пропозиції з різним рівнем 
@@ -122,7 +148,7 @@
         <li class="filtr__item">
           <a href="#" class="filtr__link-projeckt">
             <div class="filtr__description-efect">
-              <img src="images/portf3.jpg" alt="Restoran Seafood" width="370" />
+              <img class="img__filtr-icone" src="images/portf3.jpg" alt="Restoran Seafood" width="370" />
               <p class="filtr__description">
                 Ресурс пропонує комплексні
                 пропозиції з різним рівнем
@@ -141,7 +167,7 @@
         <li class="filtr__item">
           <a href="#" class="filtr__link-projeckt">
             <div class="filtr__description-efect">
-            <img src="images/portf4.jpg" alt="Projekt Prime" width="370" />
+            <img class="img__filtr-icone" src="images/portf4.jpg" alt="Projekt Prime" width="370" />
             <p class="filtr__description">
               Ресурс пропонує комплексні
               пропозиції з різним рівнем
@@ -159,7 +185,7 @@
         <li class="filtr__item">
           <a href="#" class="filtr__link-projeckt">
             <div class="description-efect">
-            <img src="images/portf5.jpg" alt="Projekt Boxes" width="370" />
+            <img class="img__filtr-icone" src="images/portf5.jpg" alt="Projekt Boxes" width="370" />
             <p class="filtr__description">
               Ресурс пропонує комплексні
               пропозиції з різним рівнем
@@ -177,7 +203,7 @@
         <li class="filtr__item" class="filtr__link-projeckt">
           <a href="" class="filtr__link-projeckt">
             <div class="filtr__description-efect">
-            <img src="images/portf6.jpg"
+            <img class="img__filtr-icone" src="images/portf6.jpg"
                   alt="web site Inspiration has no Borders" width="370"/>
               <p class="filtr__description">
                 Ресурс пропонує комплексні
@@ -196,7 +222,7 @@
 <li class="filtr__item">
   <a href="" class="filtr__link-projeckt">
     <div class="filtr__description-efect">
-    <img src="images/portf7.jpg" alt="tehnokriak website" width="370" />
+    <img class="img__filtr-icone" src="images/portf7.jpg" alt="tehnokriak website" width="370" />
     <p class="filtr__description">
       Ресурс пропонує комплексні
       пропозиції з різним рівнем
@@ -214,7 +240,7 @@
         <li class="filtr__item">
           <a href="" class="filtr__link-projeckt">
             <div class="filtr__description-efect">
-            <img src="images/portf8.jpg" alt="Projekt LAB" width="370" />
+            <img class="img__filtr-icone" src="images/portf8.jpg" alt="Projekt LAB" width="370" />
             <p class="filtr__description">
               Ресурс пропонує комплексні
               пропозиції з різним рівнем
@@ -232,7 +258,7 @@
         <li class="filtr__item">
           <a href="" class="filtr__link-projeckt">
             <div class="filtr__description-efect">
-            <img src="images/portf9.jpg" alt="Growing Business" width="370" />
+            <img class="img__filtr-icone" src="images/portf9.jpg" alt="Growing Business" width="370" />
             <p class="filtr__description">
               Ресурс пропонує комплексні
               пропозиції з різним рівнем
@@ -254,73 +280,76 @@
       <div class="container">
         <div class="footer__link">
           <div>
-            <a href="https://bodia0210.github.io/goit-markup-hw-04/" class="footer__logo">Web<span>Studio</span></a>
-            <address class="footer__adsress">
-              <ul class="footer__nav">
+            <div>
+              <a href="https://bodia0210.github.io/goit-markup-hw-04/" class="footer__logo">Web<span>Studio</span></a>
+              <address class="footer__adsress">
+                <ul class="footer__nav">
+                  <li>
+                    <p class="footer__location">м. Київ, пр-т Лесі Українки, 26</p>
+                  </li>
+                  <li>
+                    <a href="info@devstudio.com" class="footer__contacts">
+                      info@devstudio.com</a>
+                  </li>
+                  <li>
+                    <a href="tel:+380961111111" class="footer__contacts">+380961111111</a>
+                  </li>
+                </ul>
+              </address>
+            </div>
+            <div class="footer__add">
+              <h3 class="footer__link-title">приєднуйтесь</h3>
+              <ul class="footer__network-menu">
                 <li>
-                  <p class="footer__location">м. Київ, пр-т Лесі Українки, 26</p>
+                  <button class="footer__button">
+                    <svg with="44px" heigh="44px" class="footer__network">
+                      <use href="./images/icons.svg#iconinstagramfooter">
+                      </use>
+                    </svg>
+                  </button>
                 </li>
+    
                 <li>
-                  <a href="info@devstudio.com" class="footer__contacts">
-                    info@devstudio.com</a>
+                  <button class="footer__button">
+                    <svg class="footer__network">
+                      <use href="./images/icons.svg#icontwitterfooter">
+                      </use>
+                    </svg>
+                  </button>
                 </li>
+    
                 <li>
-                  <a href="tel:+380961111111" class="footer__contacts">+380961111111</a>
+                  <button class="footer__button">
+                    <svg class="footer__network">
+                      <use href="./images/icons.svg#iconfacebookfooter">
+                      </use>
+                    </svg>
+                  </button>
+                </li>
+    
+                <li>
+                  <button class="footer__button">
+                    <svg class="footer__network">
+                      <use href="./images/icons.svg#iconlinkedinfooter">
+                      </use>
+                    </svg>
+                  </button>
                 </li>
               </ul>
-            </address>
-          </div>
-          <div class="footer__add">
-            <h3 class="footer__link-title">приєднуйтесь</h3>
-            <ul class="footer__network-menu">
-              <li>
-                <button class="footer__button">
-                  <svg with="44px" heigh="44px" class="footer__network">
-                    <use href="./images/icons.svg#iconinstagramfooter">
-                    </use>
-                  </svg>
-                </button>
-              </li>
+            </div>
     
-              <li>
-                <button class="footer__button">
-                  <svg class="footer__network">
-                    <use href="./images/icons.svg#icontwitterfooter">
-                    </use>
+            <div class="footer__subscription">
+              <p class="footer__subscription-text">Підпишіться на розсилку</p>
+              <label for="mail"></label>
+              <input class="footer__subscription-input" type="email" name="mail" id="mail" placeholder="введіть текст">
+              <button type="button" class="footer__subscription-button">
+                <label class="footer__subscription-label">Підписатися
+                  <svg class="footer__subscription-icone">
+                    <use href="./images/icons.svg#iconiconsend"></use>
                   </svg>
-                </button>
-              </li>
-    
-              <li>
-                <button class="footer__button">
-                  <svg class="footer__network">
-                    <use href="./images/icons.svg#iconfacebookfooter">
-                    </use>
-                  </svg>
-                </button>
-              </li>
-    
-              <li>
-                <button class="footer__button">
-                  <svg class="footer__network">
-                    <use href="./images/icons.svg#iconlinkedinfooter">
-                    </use>
-                  </svg>
-                </button>
-              </li>
-            </ul>
-          </div>
-          <div class="footer__subscription">
-            <p class="footer__subscription-text">Підпишіться на розсилку</p>
-            <label for="mail"></label>
-            <input class="footer__subscription-input" type="email" name="mail" id="mail" placeholder="введіть текст">
-            <button type="button" class="footer__subscription-button">
-              <label class="footer__subscription-label">Підписатися
-                <svg class="footer__subscription-icone">
-                  <use href="./images/icons.svg#iconiconsend"></use>
-                </svg>
-              </label>
-            </button>
+                </label>
+              </button>
+            </div>
           </div>
         </div>
       </div>
