@@ -4,6 +4,10 @@
     padding-bottom: 60px;
     text-align: center;
     background-color: rgba(245, 244, 250, 1);
+
+    @media screen and (min-width: 768px) {
+            
+        }
 }
 
 .we__team {
@@ -13,12 +17,14 @@
     line-height: calc(42 / 36);
     letter-spacing: 0.03em;
     color: $main-color;
+    
 }
 
 .we__menu {
     // display: flex;
     max-width: 480px;
 }
+
 
 .we__list {
     max-width: 480px;
@@ -27,9 +33,23 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background: #ffffff;
+
+    @media screen and (min-width: 768px) {
+        max-width: 354px;
+    }
 }
 
-.we__list-foto {width: 450px;}
+.we__list-foto {
+    width: 450px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    }
+}
+
+we__list:last-child(2) {
+    margin-right: 0;
+}
 
 .we__list:last-child {
     margin-right: 0;

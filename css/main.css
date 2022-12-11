@@ -866,7 +866,6 @@ img {
   text-align: center;
   background-color: rgb(245, 244, 250);
 }
-
 .we__team {
   padding-bottom: 50px;
   font-weight: 700;
@@ -888,9 +887,23 @@ img {
   border-radius: 0px 0px 4px 4px;
   background: #ffffff;
 }
+@media screen and (min-width: 768px) {
+  .we__list {
+    max-width: 354px;
+  }
+}
 
 .we__list-foto {
   width: 450px;
+}
+@media screen and (min-width: 768px) {
+  .we__list-foto {
+    width: 354px;
+  }
+}
+
+we__list:last-child(2) {
+  margin-right: 0;
 }
 
 .we__list:last-child {
