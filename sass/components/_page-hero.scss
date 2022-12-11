@@ -1,6 +1,4 @@
-.hero {
-    text-align: center;
-    
+.hero {    
     max-width: 1600px;
     /* outline: 1px solid black; */
     border: 1px solid #ECECEC;
@@ -13,9 +11,14 @@
     background-size: cover;
     background-position: center;
 
-
-
+    @media screen and (min-width: 678px) {
+        height: 600px;
     }
+
+    @media screen and (min-width: 1140px) {
+        height: 600px;
+    }
+}
 
 .hero .hero__container {
     margin-top: 0;
@@ -32,6 +35,13 @@
     text-transform: uppercase;
     color: #ffffff;
     
+    @media screen and (min-width: 768px) {
+        margin-left: 204px;
+    }
+
+        @media screen and (min-width: 1140px) {
+            margin-left: 452px;
+        }
 }
 
 .hero__button {
