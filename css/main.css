@@ -178,7 +178,7 @@ img {
   font-size: 40px;
   margin-bottom: 32px;
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
   .line-header__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -286,11 +286,15 @@ img {
   display: -ms-flexbox;
   display: flex;
   color: #757575;
-  margin-right: 50px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.02em;
+}
+@media screen and (min-width: 768px) {
+  .line-header__contacts {
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+  }
 }
 
 .line-header__contacts :last-child {
