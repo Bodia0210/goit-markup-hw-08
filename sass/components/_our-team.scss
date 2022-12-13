@@ -28,7 +28,6 @@
     @media screen and(min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
-        max-width: 480px;
     }
 
     @media screen and (min-width: 1140px) {
@@ -36,6 +35,13 @@
         padding-left: 0;
         width: 1170px;
     }
+}
+
+.we__menu li:nth-child(2n) {
+    @media screen and (min-width: 768px) {
+        margin-right: 0;
+    }
+    
 }
 
 
