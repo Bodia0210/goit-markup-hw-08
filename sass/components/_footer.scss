@@ -142,6 +142,8 @@
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
     fill: white;
+
+    
 }
 
 .footer__button:hover,
@@ -230,9 +232,9 @@
     cursor: pointer;
 
     @media screen and (min-width: 1140px) {
-           position: absolute;
-           margin-left: 12px;
-
+        position: absolute;
+        margin-left: 12px;
+        margin-top: 0;
         
     }
 }

@@ -1400,6 +1400,7 @@ we__list:last-child(2) {
   .footer__subscription-button {
     position: absolute;
     margin-left: 12px;
+    margin-top: 0;
   }
 }
 
