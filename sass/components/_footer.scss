@@ -12,6 +12,8 @@
     margin-bottom: 0;
 }
 
+
+
 .footer__logo {
     display: flex;
 
@@ -24,6 +26,10 @@
     line-height: calc(28 / 24);
     letter-spacing: 0.03em;
     color: #2196f3;
+
+    @media screen and (max-width: 767px) {
+        margin-left: 148px;
+    }
 }
 
 .footer__logo>span {
@@ -31,7 +37,7 @@
 }
 
 .footer__adsress {
-    max-width: 231px;
+    width: 231px;
     height: 81px;
     margin-top: 20px;
     
@@ -40,6 +46,11 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #ffffff;
+
+    @media screen and (max-width: 767px) {
+        width: 231px;
+        margin-left: 109px;
+    }
 
     @media screen and (min-width: 1140px) {
         width: 231px;
@@ -79,6 +90,11 @@
 .footer__link {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 1139px) {
+    flex-direction: column;
+    }
+    
 }
 
 .network-menu {
@@ -88,8 +104,11 @@
 }
 
 .footer__add {
+    
     margin-top: 60px;
     margin-left: 137px;
+    
+    
 
     @media screen and (min-width: 1140px) {
         margin-left: 70px;
@@ -140,7 +159,8 @@
 .footer__subscription {
 
     @media screen and (max-width: 1139px) {
-        // padding-top: 200px;
+        margin-top: 60px;
+
     }
         
 
@@ -161,14 +181,19 @@
 
     color: #FFFFFF;
     padding-bottom: 20px;
+
+    @media screen and (max-width: 1139px) {
+        margin-left: 137px;
+    }
 }
 
 .footer__subscription-input {
     box-sizing: border-box;
-    max-width: 450px;
+    width: 100%;
     height: 50px;
     left: 815px;
     top: 2784px;
+    left: 0;
 
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -193,7 +218,7 @@
 }
 
 .footer__subscription-button {
-    // margin-top: 20px;
+    margin-top: 20px;
     // max-width: 200px;
     height: 50px;
 
@@ -207,7 +232,7 @@
     @media screen and (min-width: 1140px) {
            position: absolute;
            margin-left: 12px;
-           
+
         
     }
 }
