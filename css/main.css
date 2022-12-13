@@ -1175,8 +1175,7 @@ we__list:last-child(2) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 60px;
-  padding-left: 163px;
+  margin-top: 60px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -1191,10 +1190,9 @@ we__list:last-child(2) {
 }
 
 .footer__adsress {
-  max-width: 232px;
-  height: 79px;
+  max-width: 231px;
+  height: 81px;
   margin-top: 20px;
-  margin-left: 124px;
   font-weight: 400;
   line-height: 1.7142857143;
   text-align: center;
@@ -1203,14 +1201,30 @@ we__list:last-child(2) {
 }
 @media screen and (min-width: 1140px) {
   .footer__adsress {
-    margin-top: 20px;
-    font-weight: 400;
-    line-height: 1.7142857143;
+    width: 231px;
+    height: 81px;
   }
 }
 
 .footer__nav {
   padding-left: 0;
+}
+
+@media screen and (min-width: 1140px) {
+  .footer__nav-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.footer__location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
 }
 
 .footer__contacts {
@@ -1237,14 +1251,13 @@ we__list:last-child(2) {
 }
 
 .footer__add {
-  position: absolute;
   margin-top: 60px;
   margin-left: 137px;
 }
 @media screen and (min-width: 1140px) {
   .footer__add {
-    padding-left: 70px;
-    padding-top: 40px;
+    margin-left: 70px;
+    margin-top: 72px;
   }
 }
 
@@ -1287,17 +1300,17 @@ we__list:last-child(2) {
   fill: #FFFFFF;
 }
 
-.footer__subscription {
-  padding-top: 200px;
-}
 @media screen and (min-width: 1140px) {
   .footer__subscription {
-    padding-left: 93px;
-    padding-top: 72px;
+    margin-left: 93px;
+    margin-top: 72px;
   }
 }
 
 .footer__subscription-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -1343,8 +1356,6 @@ we__list:last-child(2) {
 }
 
 .footer__subscription-button {
-  margin-top: 20px;
-  max-width: 200px;
   height: 50px;
   background: #2196F3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -1356,8 +1367,8 @@ we__list:last-child(2) {
 }
 @media screen and (min-width: 1140px) {
   .footer__subscription-button {
-    left: 1185px;
-    top: 2784px;
+    position: absolute;
+    margin-left: 12px;
   }
 }
 
