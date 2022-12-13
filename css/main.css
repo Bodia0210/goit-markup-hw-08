@@ -968,6 +968,11 @@ img {
     margin-right: 0;
   }
 }
+@media screen and (min-width: 1140px) {
+  .we__menu li:nth-child(2n) {
+    margin-right: 30px;
+  }
+}
 
 .we__list {
   max-width: 480px;
