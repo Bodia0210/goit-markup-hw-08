@@ -31,7 +31,7 @@
 }
 
 .footer__adsress {
-    width: 232px;
+    max-width: 232px;
     height: 79px;
     margin-top: 20px;
     margin-left: 124px;
@@ -144,7 +144,7 @@
 
 .footer__subscription-input {
     box-sizing: border-box;
-    width: 450px;
+    max-width: 450px;
     height: 50px;
     left: 815px;
     top: 2784px;
@@ -173,7 +173,7 @@
 
 .footer__subscription-button {
     margin-top: 20px;
-    width: 200px;
+    max-width: 200px;
     height: 50px;
 
     background: #2196F3;
