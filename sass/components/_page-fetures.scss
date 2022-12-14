@@ -15,7 +15,7 @@
     @media screen and (min-width: 1140px) {
         display: flex;
         margin-top: 94px;
-        width: 100%;
+        max-width: 1170px;
         height: 100%;
 
     }
@@ -33,6 +33,7 @@
 
     @media screen and (min-width: 1140px) {
         display: flex;
+        max-width: 1170px;
         height: 248px;
         margin-left: 215px;
         flex-wrap: nowrap;
