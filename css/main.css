@@ -757,7 +757,7 @@ img {
     display: -ms-flexbox;
     display: flex;
     height: 248px;
-    padding-left: 215px;
+    margin-left: 215px;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
