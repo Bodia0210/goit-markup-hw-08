@@ -952,6 +952,8 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    width: 768px;
+    margin-left: 15px;
   }
 }
 @media screen and (min-width: 1140px) {
@@ -984,8 +986,15 @@ img {
 }
 @media screen and (min-width: 768px) {
   .we__list {
-    max-width: 354px;
+    width: 354px;
+    height: 536px;
     margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .we__list::nth-child(2) {
+    margin-left: 0;
   }
 }
 
@@ -994,7 +1003,8 @@ img {
 }
 @media screen and (min-width: 768px) {
   .we__list-foto {
-    max-width: 354px;
+    width: 354px;
+    height: 374px;
   }
 }
 @media screen and (min-width: 1140pxpx) {
