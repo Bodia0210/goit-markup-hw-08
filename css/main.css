@@ -153,7 +153,6 @@ img {
   padding-left: 40px;
   height: 796px;
   background-color: rgb(255, 255, 255);
-  overflow-y: scroll;
 }
 .line-header_menu-conteiner.is-open {
   display: block;
