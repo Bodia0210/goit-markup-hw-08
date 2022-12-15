@@ -63,7 +63,7 @@ ul {
 }
 @media screen and (min-width: 1140px) {
   .container {
-    width: 1140px;
+    width: 1200px;
   }
 }
 
@@ -237,7 +237,7 @@ img {
     display: none;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .line-header__item-one::after {
     margin-bottom: -12px;
   }
@@ -263,7 +263,7 @@ img {
     margin-top: 32px;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .line-header__site-nav {
     position: absolute;
     margin-left: 97px;
@@ -299,7 +299,7 @@ img {
     margin-left: 20px;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .line-header__contact-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -429,7 +429,7 @@ img {
     height: 600px;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .hero {
     height: 600px;
   }
@@ -455,7 +455,7 @@ img {
     margin-left: 204px;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .hero__title {
     margin-left: 200px;
     padding-top: 200px;
@@ -743,7 +743,7 @@ img {
     height: 480px;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .fetures {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -767,7 +767,7 @@ img {
         flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .fetures__menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -790,7 +790,7 @@ img {
     height: 70px;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .fetures__icone {
     display: block;
     margin-bottom: 25px;
@@ -812,7 +812,7 @@ img {
     margin-right: 30px;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .fetures__list {
     max-width: 270px;
     height: 120px;
@@ -848,7 +848,7 @@ img {
     padding: 25px 142px;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .fetures__container {
     padding: 20px 100px;
     max-width: 270px;
@@ -878,7 +878,7 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .activity {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -946,8 +946,10 @@ img {
   text-align: center;
   background-color: rgb(245, 244, 250);
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .we {
+    max-width: 1600px;
+    height: 708px;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -973,7 +975,7 @@ img {
     margin-left: 15px;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .we__menu {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -987,7 +989,7 @@ img {
     margin-right: 0;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .we__menu li:nth-child(2n) {
     margin-right: 30px;
   }
@@ -1008,6 +1010,12 @@ img {
     margin-right: 30px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .we__list {
+    width: 270px;
+    height: 428px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .we__list::nth-child(2) {
@@ -1024,9 +1032,10 @@ img {
     height: 374px;
   }
 }
-@media screen and (min-width: 1140pxpx) {
+@media screen and (min-width: 1200px) {
   .we__list-foto {
     max-width: 270px;
+    height: 260px;
   }
 }
 
@@ -1065,6 +1074,10 @@ we__list:last-child(2) {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 24px;
+}
+
+.we__team-networks li:nth-child(2) {
+  margin-right: 0;
 }
 
 .we__button-network {
@@ -1187,7 +1200,7 @@ we__list:last-child(2) {
   height: 603px;
   background-color: #2f303a;
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .footer {
     height: 252px;
   }
@@ -1237,7 +1250,7 @@ we__list:last-child(2) {
     margin-left: 109px;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .footer__adsress {
     width: 231px;
     height: 81px;
@@ -1248,7 +1261,7 @@ we__list:last-child(2) {
   padding-left: 0;
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .footer__nav-link {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1300,7 +1313,7 @@ we__list:last-child(2) {
   margin-top: 60px;
   margin-left: 137px;
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .footer__add {
     margin-left: 70px;
     margin-top: 72px;
@@ -1351,7 +1364,7 @@ we__list:last-child(2) {
     margin-top: 60px;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .footer__subscription {
     margin-left: 93px;
     margin-top: 72px;
@@ -1406,7 +1419,7 @@ we__list:last-child(2) {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .footer__subscription-input {
     width: 358px;
   }
@@ -1423,7 +1436,7 @@ we__list:last-child(2) {
   margin-left: 140px;
   cursor: pointer;
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .footer__subscription-button {
     position: absolute;
     margin-left: 12px;
