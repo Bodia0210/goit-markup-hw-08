@@ -1483,11 +1483,7 @@ we__list:last-child(2) {
   .filtr__menu {
     margin-top: 94px;
     margin-left: 297px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    width: auto;
   }
 }
 
