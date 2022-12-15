@@ -2,9 +2,16 @@
     display: flex;
     flex-wrap: wrap;
     width: 329px;
-    
     margin-bottom: 34px;
     margin-top: 40px;
+
+    @media screen and (min-width: 1200px) {
+        
+            margin-top: 94px;
+            margin-left: 297px;
+            display: flex;
+            flex-wrap: nowrap;
+    }
 }
 
 .filr__button {
@@ -20,6 +27,7 @@
     letter-spacing: 0.03em;
     color: $main-color;
     background-color: #f5f4fa;
+
 }
 
 .filr__button:hover,
@@ -33,6 +41,13 @@
     flex-wrap: wrap;
     padding-left: 0;
     width: 1170px;
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        width: 1170px;
+    }
 }
 
 .filtr__item {
@@ -45,6 +60,10 @@
     box-sizing: border-box;
     border: 1px solid #eeeeee;
     overflow: hidden;
+
+    @media screen and (min-width: 1200px) {
+        width: 370px;
+    }
 }
 
 .filtr__item:nth-child(3n) {
