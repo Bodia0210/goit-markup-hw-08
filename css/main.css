@@ -229,7 +229,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .line-header__item-one::after {
-    margin-bottom: -1px;
+    margin-bottom: -12px;
   }
 }
 @media screen and (max-width: 767px) {
