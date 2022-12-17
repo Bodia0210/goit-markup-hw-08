@@ -1628,6 +1628,11 @@ we__list:last-child(2) {
   border: 1px solid #eeeeee;
   overflow: hidden;
 }
+@media screen and (max-width: 767px) {
+  .filtr__item {
+    position: static;
+  }
+}
 @media screen and (min-width: 1200px) {
   .filtr__item {
     width: 370px;
@@ -1654,6 +1659,11 @@ we__list:last-child(2) {
 .filtr__description-efect {
   position: relative;
   overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  .filtr__description-efect {
+    position: static;
+  }
 }
 
 .filtr__description-efect::before {
