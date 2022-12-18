@@ -20,9 +20,8 @@
 
 .footer__logo {
     display: flex;
-
+    justify-content: center;
     margin-top: 60px;
-    // padding-left: 215px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -31,15 +30,17 @@
     letter-spacing: 0.03em;
     color: #2196f3;
 
+
     @media screen and (min-width: 768px) {
-        margin-left: 115px;
+        margin-left: 31px;
+        justify-content: flex-start;
     }
 
     @media screen and (min-width: 1200px) {
         width: 145px;
         height: 31px;
         margin-top: 0;
-        margin-left: 200px;
+        margin-left: 0;
     }
 }
 
@@ -47,10 +48,6 @@
     color: #ffffff;
 }
 
-// .footer__nav-box {
-//     width: 232px;
-//     height: 79px;
-// }
 
 .footer__adsress {
     width: 232px;
@@ -67,16 +64,13 @@
         display: flex;
         position: absolute;
         width: 231px;
-        margin-left: 76px;
     }
 
     @media screen and (min-width: 1200px) {
         position: relative;
         width: 231px;
         height: 81px;
-        margin-top: 111px;
-        margin-left: -140px;
-    }
+        }
 }
 
 .footer__nav {
@@ -130,7 +124,18 @@
 .network-menu {
     display: flex;
     list-style: none;
+}
 
+.footer__nav-box {
+
+    @media screen and (min-width: 1440px) {
+        margin-left: auto;
+        }
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 72px;
+    }
+    
 }
 
 .footer__add {
