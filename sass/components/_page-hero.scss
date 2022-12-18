@@ -94,8 +94,8 @@
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     @media screen and (max-width: 767px) {
-            max-width: 450px;
-            max-height: 609px;
+            max-width: 480px;
+            max-height: 796px;
 }}
 
 .hero__backdrob.is-hidden {
@@ -116,8 +116,8 @@
         translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    min-width: 528px;
-    min-height: 581px;
+    max-width: 528px;
+    max-height: 796px;
     padding: 40px;
     background: #FFFFFF;
     box-shadow:
@@ -128,7 +128,8 @@
 
     @media screen and (max-width: 767px) {
         max-width: 450px;
-        max-height: 609px;
+        top: 433px;
+        left: 240px;
     }
 }
 

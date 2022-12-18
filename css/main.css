@@ -229,7 +229,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .line-header__item-one::after {
-    margin-bottom: -12px;
+    margin-bottom: -1px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -514,8 +514,8 @@ img {
 }
 @media screen and (max-width: 767px) {
   .hero__backdrob {
-    max-width: 450px;
-    max-height: 609px;
+    max-width: 480px;
+    max-height: 796px;
   }
 }
 
@@ -539,8 +539,8 @@ img {
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  min-width: 528px;
-  min-height: 581px;
+  max-width: 528px;
+  max-height: 796px;
   padding: 40px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -550,7 +550,8 @@ img {
 @media screen and (max-width: 767px) {
   .hero__modal {
     max-width: 450px;
-    max-height: 609px;
+    top: 433px;
+    left: 240px;
   }
 }
 
@@ -769,7 +770,7 @@ img {
 
 .fetures {
   display: inline-block;
-  margin-top: 60px;
+  padding-top: 60px;
   max-width: 450px;
   height: 994px;
   left: 15px;
@@ -787,8 +788,8 @@ img {
     display: -ms-flexbox;
     display: flex;
     max-width: 1200px;
-    left: 0px;
-    margin-top: 90px;
+    height: 248px;
+    padding-top: 94px;
   }
 }
 
